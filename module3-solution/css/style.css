@@ -2,12 +2,19 @@
 #header-nav{
     border-radius:0px;   
     background-color: #3bbf46;
+    width:100%;
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color:bisque;
 }
 *{
     box-sizing:border-box;
 }
-a h1{
+.navbar-header > a > h1.navbar-brand{
     color:beige;
+    font-size:34px;
 }
 .navbar-default .navbar-nav>li>a {
     color:white;
@@ -18,6 +25,7 @@ a h1{
 }
 .navbar-header a:hover,a:focus{
     text-decoration:none;
+    color:white;
 }
 /* navbar and its contents ends here*/
 
@@ -63,9 +71,10 @@ a h1{
  }
  .navbar-default .navbar-toggle {
     border-color:black;
+    
  }
  button.navbar-toggle{
-     position:absolute;
+    
      top:4px;
      right:2px;
      bottom:4px;
@@ -78,7 +87,7 @@ a h1{
  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color:#78fa83;
 }
-.navbar-header > a > h1{
+.navbar-header > a > h1.navbar-brand{
     padding-left:20px;
     padding-bottom:6px;
     font-size:5vw;
@@ -89,7 +98,10 @@ a h1{
   height:100%;
   top:0;
   left:15%;
-  
+}
+body{
+    padding:0px;
+    margin:0px;
 }
 .row #sec1,#sec2,#sec3{
     width:70%;
