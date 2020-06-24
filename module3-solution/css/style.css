@@ -102,6 +102,7 @@ body{
 body{
     padding:0px;
     margin:0px;
+    background-color:bisque;
 }
 .row #sec1,#sec2,#sec3{
     width:70%;
