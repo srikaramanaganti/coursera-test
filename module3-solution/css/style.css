@@ -111,4 +111,10 @@ body{
 ul.visible-xs{
     text-align:center;
 }
+#header-nav{
+    border-radius:0px;   
+    background-color: #3bbf46;
+    width:100%;
+    margin-right:0px;
+}
 }
