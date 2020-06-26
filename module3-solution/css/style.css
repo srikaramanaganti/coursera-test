@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* navbar styles*/
 #header-nav{
     border-radius:0px;   
@@ -118,7 +117,7 @@ ul.visible-xs{
     width:100%;
     margin-right:0px;
 }
-=======
+
 /* navbar styles*/
 #header-nav{
     border-radius:0px;   
@@ -232,5 +231,4 @@ body{
 ul.visible-xs{
     text-align:center;
 }
->>>>>>> b7c308c576b0b02ecd513534b5200d054f451cf8
 }
